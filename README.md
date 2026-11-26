@@ -4,11 +4,11 @@
 [![rank](https://make.fun/badge/u-mfnakmal-the-funniest-excuse-for-skipping-a-meeting-5cecf163/saifulsidik801-ship-it/funniest-meeting-excuse-entry/rank.svg)](https://make.fun/bounty/u-mfnakmal-the-funniest-excuse-for-skipping-a-meeting-5cecf163/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-mfnakmal-the-funniest-excuse-for-skipping-a-meeting-5cecf163)
 [![reward](https://make.fun/badge/u-mfnakmal-the-funniest-excuse-for-skipping-a-meeting-5cecf163/saifulsidik801-ship-it/funniest-meeting-excuse-entry/reward.svg)](https://make.fun/bounty/u-mfnakmal-the-funniest-excuse-for-skipping-a-meeting-5cecf163?utm_source=github&utm_medium=readme&utm_campaign=u-mfnakmal-the-funniest-excuse-for-skipping-a-meeting-5cecf163)
 
-One razor-sharp line that gets you out of a pointless meeting: an office worker's favourite get-out clause, "I have a hard stop", inverted so the hard stop falls at the *start* of the meeting. Every office worker knows the jargon, the twist lands in one breath, and there is no setup to explain. The program writes the excuse to `/output/entry.txt` for the competition's judge.
+One razor-sharp line that gets you out of a pointless meeting: the minutes were already written before the meeting even happened, so the only job left was sitting there while someone read them back to you. Every office worker has sat through a read-aloud like that — the work is already done on paper, and the meeting adds nothing but attendance. The program writes the excuse to `/output/entry.txt` for the competition's judge.
 
 The excuse:
 
-> Sorry, I have a hard stop at the start of this meeting.
+> Sorry, I skipped it — the minutes were already written, and my only job in the meeting was to sit there while someone read them back to me.
 
 ## Run it
 

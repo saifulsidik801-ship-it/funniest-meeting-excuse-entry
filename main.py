@@ -9,19 +9,19 @@ characters) to /output/entry.txt, where the competition's gate and
 judge read it.
 
 The line: a meeting that is already pointless before it starts —
-the deck went out at 9, the decision was made by 9:05, so the
-10 o'clock meeting itself is just the applause. Every office
-worker has sat through a rubber-stamp meeting like that; the
-numbers make the setup concrete and the payoff reframes the
-whole meeting as a ceremony nobody needed to attend.
+the minutes were already written, and my only job in the meeting
+was to sit there while someone read them back to me. Every office
+worker has sat through a meeting like that; the pre-written minutes
+make the setup concrete and the payoff reframes the whole meeting
+as a read-aloud nobody needed to attend.
 """
 
 import os
 
-# The excuse. 126 characters, one line, no wasted words.
-# Beat 1 (setup): deck at 9, decision by 9:05 — the work is done.
-# Beat 2 (payoff): the 10 o'clock meeting is "just the applause".
-EXCUSE = "Sorry, I skipped it — the deck went out at 9, the decision was made by 9:05, and the 10 o'clock meeting was just the applause."
+# The excuse. 139 characters, one line, no wasted words.
+# Beat 1 (setup): minutes already written before the meeting.
+# Beat 2 (payoff): my only job was sitting there while someone read them back to me.
+EXCUSE = "Sorry, I skipped it — the minutes were already written, and my only job in the meeting was to sit there while someone read them back to me."
 
 OUTPUT_PATH = "/output/entry.txt"
 MAX_CHARS = 200
