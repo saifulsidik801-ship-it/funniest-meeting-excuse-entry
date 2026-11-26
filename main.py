@@ -16,8 +16,8 @@ one breath, and there is no setup to explain.
 
 import os
 
-# The excuse. 55 characters, one line, no wasted words.
-EXCUSE = "Sorry, I have a hard stop at the start of this meeting."
+# The excuse. 124 characters, one line, no wasted words.
+EXCUSE = "Sorry, I have a hard stop at the start of this meeting — I booked it myself, and I'm the only one who ever shows up on time."
 
 OUTPUT_PATH = "/output/entry.txt"
 MAX_CHARS = 200
