@@ -8,16 +8,20 @@ The program writes a single razor-sharp excuse line (at most 200
 characters) to /output/entry.txt, where the competition's gate and
 judge read it.
 
-The line: an office worker's favourite get-out clause, "I have a
-hard stop", inverted so the hard stop falls at the *start* of the
-meeting. Every office worker knows the jargon, the twist lands in
-one breath, and there is no setup to explain.
+The line: a meeting that is already pointless before it starts —
+the deck went out at 9, the decision was made by 9:05, so the
+10 o'clock meeting itself is just the applause. Every office
+worker has sat through a rubber-stamp meeting like that; the
+numbers make the setup concrete and the payoff reframes the
+whole meeting as a ceremony nobody needed to attend.
 """
 
 import os
 
-# The excuse. 124 characters, one line, no wasted words.
-EXCUSE = "Sorry, I have a hard stop at the start of this meeting — I booked it myself, and I'm the only one who ever shows up on time."
+# The excuse. 126 characters, one line, no wasted words.
+# Beat 1 (setup): deck at 9, decision by 9:05 — the work is done.
+# Beat 2 (payoff): the 10 o'clock meeting is "just the applause".
+EXCUSE = "Sorry, I skipped it — the deck went out at 9, the decision was made by 9:05, and the 10 o'clock meeting was just the applause."
 
 OUTPUT_PATH = "/output/entry.txt"
 MAX_CHARS = 200
